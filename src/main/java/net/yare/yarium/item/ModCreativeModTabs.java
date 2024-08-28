@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.yare.yarium.Yarium;
+import net.yare.yarium.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,7 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.RUBY.get());
                 output.accept(ModItems.RUBY_UPGRADE.get());
                 output.accept(ModItems.RAW_RUBY.get());
+                output.accept(ModBlocks.RUBY_ORE.get());
             })
             .build());
 

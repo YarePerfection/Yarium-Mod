@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.yare.yarium.block.ModBlocks;
 import net.yare.yarium.item.ModCreativeModTabs;
 import net.yare.yarium.item.ModItems;
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class Yarium
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.registrer(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

@@ -2,5 +2,10 @@
   "item.yarium.ruby": "Rubi",
   "item.yarium.ruby_upgrade": "Melhoria de Rubi",
   "item.yarium.raw_ruby": "Rubi Bruto",
-  "creativetab.yarium_tab": "Yarium Mod"
+
+  "creativetab.yarium_tab": "Yarium Mod",
+
+  "block.yarium.ruby_ore": "Minério de Rubi",
+  "block.yarium.raw_ruby_block": "Bloco de Rubi Bruto",
+  "block.yarium.ruby_block": "Bloco de Rubi"
 }
