@@ -14,6 +14,12 @@ public class ModItems {
 public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
         () -> new Item(new Item.Properties()));
 
+public static final RegistryObject<Item> RUBY_UPGRADE = ITEMS.register("ruby_upgrade",
+        () -> new Item(new Item.Properties()));
+
+public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
+        () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

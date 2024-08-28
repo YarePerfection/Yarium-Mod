@@ -1,3 +1,6 @@
 {
-  "item.yarium.ruby": "Rubi"
+  "item.yarium.ruby": "Rubi",
+  "item.yarium.ruby_upgrade": "Melhoria de Rubi",
+  "item.yarium.raw_ruby": "Rubi Bruto",
+  "creativetab.yarium_tab": "Yarium Mod"
 }

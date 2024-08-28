@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.yare.yarium.item.ModCreativeModTabs;
 import net.yare.yarium.item.ModItems;
 import org.slf4j.Logger;
 
@@ -28,6 +29,7 @@ public class Yarium
     public Yarium()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -43,6 +45,8 @@ public class Yarium
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
+            event.accept(ModItems.RUBY_UPGRADE);
+            event.accept(ModItems.RAW_RUBY);
         }
     }
 
