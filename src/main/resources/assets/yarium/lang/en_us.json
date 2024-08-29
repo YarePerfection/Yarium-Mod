@@ -8,5 +8,8 @@
   "block.yarium.ruby_ore": "Ruby Ore",
 
   "block.yarium.raw_ruby_block": "Raw Ruby Block",
-  "block.yarium.ruby_block": "Ruby Block"
+  "block.yarium.ruby_block": "Ruby Block",
+  "block.yarium.dead_log": "Dead Log",
+  "block.yarium.dead_wood": "Dead Wood"
+  "block.yarium.dead_planks": "Dead Planks"
 }

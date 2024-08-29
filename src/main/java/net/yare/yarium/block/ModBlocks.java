@@ -27,6 +27,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> DEAD_LOG = registerBlock("dead_log",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+    public static final RegistryObject<Block> DEAD_WOOD = registerBlock("dead_wood",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+    public static final RegistryObject<Block> DEAD_PLANKS = registerBlock("dead_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

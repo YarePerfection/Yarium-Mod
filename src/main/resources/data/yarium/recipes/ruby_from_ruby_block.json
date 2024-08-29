@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "yarium:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "yarium:ruby",
+    "count": 9
+  }
+}

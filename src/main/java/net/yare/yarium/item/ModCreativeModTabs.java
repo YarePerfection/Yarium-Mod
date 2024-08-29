@@ -23,6 +23,9 @@ public class ModCreativeModTabs {
                 output.accept(ModBlocks.RUBY_ORE.get());
                 output.accept(ModBlocks.RUBY_BLOCK.get());
                 output.accept(ModBlocks.RAW_RUBY_BLOCK.get());
+                output.accept(ModBlocks.DEAD_LOG.get());
+                output.accept(ModBlocks.DEAD_WOOD.get());
+                output.accept(ModBlocks.DEAD_PLANKS.get());
             })
             .build());
 
