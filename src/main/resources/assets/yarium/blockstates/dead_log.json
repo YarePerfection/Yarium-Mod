@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
-     "model": "yarium:block/dead_log"
+    "axis=x": {
+      "model": "yarium:block/dead_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "yarium:block/dead_log"
+    },
+    "axis=z": {
+      "model": "yarium:block/dead_log_horizontal",
+      "x": 90
     }
   }
 }

@@ -2,31 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "SES",
-    "E#E",
-    "OOO"
+    "@#@",
+    "#$#",
+    "%%%"
   ],
   "key": {
-    "S": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "@": {
       "item": "minecraft:netherite_scrap"
     },
-    "key": {
-      "E": {
-        "item": "minecraft:netherite_ingot"
-      },
-      "key": {
-        "#": {
-          "item": "yarium:ruby_ore"
-        },
-        "key": {
-          "O": {
-            "item": "minecraft:crying_obsidian"
-          }
-        },
-        "result": {
-          "item": "yarium:ruby_upgrade"
-        }
-      }
+    "$": {
+      "item": "yarium:ruby_block"
+    },
+    "%": {
+      "item": "minecraft:crying_obsidian"
     }
+  },
+  "result": {
+    "item": "yarium:ruby_upgrade"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "yarium:raw_ruby"
+    }
+  },
+  "result": {
+    "item": "yarium:raw_ruby_block"
+  }
+}
